@@ -177,7 +177,7 @@ jobs:
             
             # Show recent logs
             echo "📝 Recent logs (last 10 lines):"
-            docker logs ${{ env.CONTAINER_NAME }} --tail 10
+            docker logs ${{ env.CONTAINER_NAME }} --tail 20
             echo "---"
           fi
           
